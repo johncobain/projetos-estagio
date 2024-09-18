@@ -1,6 +1,7 @@
 from TTS.api import TTS
 import streamlit as st
-tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=False)
+tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=True)
+
 
 st.title("Text-to-Speech basic test")
 st.divider()
